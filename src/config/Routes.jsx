@@ -10,19 +10,19 @@ const Routes = () => {
     return (
         <Switch>
             <Route
-                path='/:category/search/:keyword'
+                path='/react-movie/:category/search/:keyword'
                 component={Catalog}
             />
             <Route
-                path='/:category/:id'
+                path='/react-movie/:category/:id'
                 component={Detail}
             />
             <Route
-                path='/:category'
+                path='/react-movie/:category'
                 component={Catalog}
             />
             <Route
-                path='/'
+                path='/react-movie'
                 exact
                 component={Home}
             />
