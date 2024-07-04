@@ -1,6 +1,7 @@
 {
   "name": "code",
   "version": "0.1.0",
+  "homepage": "https://khankisiyevravan.github.io/react-movie",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -19,6 +20,8 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts --openssl-legacy-provider test",
     "eject": "react-scripts eject"
   },
