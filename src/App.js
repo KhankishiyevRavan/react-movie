@@ -11,7 +11,7 @@ import Routes from './config/Routes';
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/react-movie">
             <Route render={props => (
                 <>
                     <Header {...props}/>
